@@ -29,9 +29,5 @@ public class AddGooglePlaceTest {
 
         response.then().statusCode(200)
                 .contentType(ContentType.JSON);
-
-        JsonPath jsonPath = new JsonPath(response.asInputStream());
-
-        System.out.println(jsonPath);
     }
 }
