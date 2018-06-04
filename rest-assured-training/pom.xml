@@ -51,11 +51,10 @@
       <scope>test</scope>
     </dependency>
 
-
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>LATEST</version>
+      <version>25.1-jre</version>
     </dependency>
 
   </dependencies>
